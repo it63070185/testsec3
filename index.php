@@ -48,12 +48,12 @@
             while ($Result = mysqli_fetch_array($res)) {
             ?>
               <tr>
-                <td><?php echo $Result['product']; ?></td>
-                <td><?php echo $Result['price']; ?></td>
-                <td><?php echo $Result['discount']; ?></td>
-                <td><?php echo $Result['total']; ?></td>
-                <td>
-                  <a align="center" class="btn btn-danger" href="edit.php?ID=<?php echo $Result['ID']; ?>">แก้ไข</a>
+                <td align="center"><?php echo $Result['product']; ?></td>
+                <td align="center"><?php echo $Result['price']; ?></td>
+                <td align="center"><?php echo $Result['discount']; ?></td>
+                <td align="center"><?php echo $Result['total']; ?></td>
+                <td align="center">
+                  <a class="btn btn-danger" href="edit.php?ID=<?php echo $Result['ID']; ?>">แก้ไข</a>
                 </td>
               </tr>
             <?php
