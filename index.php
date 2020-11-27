@@ -17,7 +17,7 @@
   $res = mysqli_query($conn, 'SELECT * FROM testtable');
   ?>
   <div class="container mt-5">
-    <div class="card-header bg-primary text-white d-flex justify-content-between">
+    <div class="card-header bg-danger text-dark d-flex justify-content-between">
       <h3>HOME</h3>
        <a href="form.php" class="btn btn-success">เพิ่ม</a>
     </div>
