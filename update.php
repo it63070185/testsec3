@@ -1,11 +1,11 @@
 <?php
 	$conn = mysqli_connect('apirat.mysql.database.azure.com', 'it63070185@apirat', 'UEKyfj18', 'ITFlab');
 
-	$product = $_POST['product'];
+    $product = $_POST['product'];
     $price = $_POST['price'];
     $discount = $_POST['discount'];
-    $total = $price*$amount;   
-	$id = $_POST['ID'];
+    $total = $price*$discount;   
+    $id = $_POST['ID'];
 
     $sql = 'UPDATE testtable SET product = "'.$product.'", price = "'.$price.'", discount = "'.$discount.'" WHERE ID = '.$id.'';
     
