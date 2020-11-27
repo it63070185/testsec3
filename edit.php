@@ -52,7 +52,6 @@
                   id="idprice"
                   value="<?php echo $data['price'];?>"
                 />
-                <br />
                 <label class="m-3" for="link">Discount(%)</label>
                 <input
                   type="text"
