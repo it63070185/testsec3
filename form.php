@@ -9,9 +9,9 @@
 </head>
 <body>
   <div class="container">
-    <div class="card-header bg-primary text-white d-flex justify-content-between">
+    <div class="card-header bg-danger text-dark d-flex justify-content-between">
      <h3>ADD</h4>
-     <a href="index.php" class="btn btn-light">BACK</a>
+     <a href="index.php" class="btn btn-dark">BACK</a>
     </div>
     <form action="insert.php" method="post" id="CommentForm">
       <div class="form-group mt-5">
@@ -21,7 +21,7 @@
         <input type="text" class="form-control" name="price" id="idprice" placeholder="Enter price">
         <label class="m-3" for="link">Discount</label>
         <input type="text" class="form-control" name="discount" id="iddiscount" placeholder="Enter Discount">
-        <input class="btn btn-success mt-5" type="submit" id="commentBtn">
+        <input class="btn btn-dark mt-5" type="submit" id="commentBtn">
       </div>
     </form>
   </div>
