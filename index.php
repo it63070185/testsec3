@@ -18,7 +18,7 @@
   ?>
   <div class="container mt-5">
     <div class="card-header bg-danger text-dark d-flex justify-content-between">
-      <h1>HOME</h1>
+      <h2>HOME</h2>
        <a href="form.php" class="btn btn-dark">เพิ่ม</a>
     </div>
     <div class="card-body">
