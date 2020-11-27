@@ -19,8 +19,8 @@
         <input type="text" class="form-control" name="product" id="idName" placeholder="Enter Product">
         <label class="m-3" for="comment">Price</label>
         <input type="text" class="form-control" name="price" id="idprice" placeholder="Enter price">
-        <label class="m-3" for="link">Amount</label>
-        <input type="text" class="form-control" name="amount" id="idamount" placeholder="Enter Amount">
+        <label class="m-3" for="link">Discount</label>
+        <input type="text" class="form-control" name="discount" id="iddiscount" placeholder="Enter Discount">
         <input class="btn btn-success mt-5" type="submit" id="commentBtn">
       </div>
     </form>
