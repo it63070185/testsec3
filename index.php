@@ -53,7 +53,7 @@
                 <td><?php echo $Result['discount']; ?></td>
                 <td><?php echo $Result['total']; ?></td>
                 <td>
-                  <a class="btn btn-danger" href="edit.php?ID=<?php echo $Result['ID']; ?>">แก้ไข</a>
+                  <a align="center" class="btn btn-danger" href="edit.php?ID=<?php echo $Result['ID']; ?>">แก้ไข</a>
                 </td>
               </tr>
             <?php
