@@ -1,13 +1,13 @@
 <?php
 	$conn = mysqli_connect('apirat.mysql.database.azure.com', 'it63070185@apirat', 'UEKyfj18', 'ITFlab');
 
-    $product = $_POST['product'];
-    $price = $_POST['price'];
-    $discount = $_POST['discount'];
-    $total = $price-($price*($discount/100));   
-    $id = $_POST['id'];
+	$product = $_POST['product'];
+	$price = $_POST['price'];
+	$discount = $_POST['discount'];
+	$total = $price-($price*($discount/100));   
+	$id = $_POST['id'];
 
-    $sql = 'UPDATE guestboook SET product = "'.$product.'", price = "'.$price.'", discount = "'.$discount.'", total ="'.$total.'" WHERE ID = '.$id.'';
+    $sql = 'UPDATE testtable SET product = "'.$product.'", price = "'.$price.'", discount = "'.$discount.'", total ="'.$total.'" WHERE ID = '.$id.'';
     
 ?>
 
