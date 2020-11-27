@@ -7,7 +7,7 @@
     $total = $price*$discount;   
     $id = $_POST['ID'];
 
-    $sql = 'UPDATE testtable SET product = "'.$product.'", price = "'.$price.'", discount = "'.$discount.'" WHERE ID = '.$id.'';
+    $sql = 'UPDATE testtable SET product = "'.$product.'", price = "'.$price.'", discount = "'.$discount.'" WHERE ID = "'.$id.'"';
     
 ?>
 
