@@ -60,7 +60,7 @@
                   id="iddiscount"
                   value="<?php echo $data['discount'];?>"
                 />
-                <input class="btn btn-success mt-5" type="submit" id="commentBtn" />
+                <input class="btn btn-dark mt-5" type="submit" id="commentBtn" />
 
               </div>
           </form>
