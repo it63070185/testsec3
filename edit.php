@@ -29,13 +29,40 @@
           </div>
           <form action="update.php" method="post" id="CommentForm">
               <div class="form-group mt-5">
-                <label class="m-3" for="name">Product</label>
-                <input type="text" class="form-control" name="product" id="idName" placeholder="Enter Product">
-                <label class="m-3" for="comment">Price</label>
-                <input type="text" class="form-control" name="price" id="idprice" placeholder="Enter price">
-                <label class="m-3" for="link">Discount</label>
-                <input type="text" class="form-control" name="discount" id="iddiscount" placeholder="Enter Discount">
-                <input class="btn btn-success mt-5" type="submit" id="commentBtn">
+                <input
+                  type="text"
+                  name="id"
+                  value="<?php echo $data['ID']; ?>"
+                  class="form-control d-none"
+                  required
+                />
+                <label class="m-3" for="product">Product</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="product"
+                  id="idproduct"
+                  value="<?php echo $data['product'];?>"
+                />
+                <label class="m-3" for="price">Price</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="price"
+                  id="idprice"
+                  value="<?php echo $data['price'];?>"
+                />
+                ><br />
+                <label class="m-3" for="link">Discount(%)</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="discount"
+                  id="iddiscount"
+                  value="<?php echo $data['discount'];?>"
+                />
+                <input class="btn btn-success mt-5" type="submit" id="commentBtn" />
+
               </div>
           </form>
       </div>
