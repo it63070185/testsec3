@@ -18,7 +18,7 @@
   ?>
   <div class="container mt-5">
     <div class="card-header bg-primary text-white d-flex justify-content-between">
-      <h3>HOME</h4>
+      <h3>HOME</h3>
        <a href="form.php" class="btn btn-success">ADD</a>
     </div>
     <div class="card-body">
@@ -33,13 +33,13 @@
                 <div align="center">Price </div>
               </th>
               <th width="300">
-                <div align="center">Amount </div>
+                <div align="center">Discount(%)</div>
               </th>
               <th width="300">
                 <div align="center">Total</div>
               </th>
               <th width="300">
-                <div align="center">Action</div>
+                <div align="center">การจัดการ</div>
               </th>
             </tr>
           </thead>
@@ -50,10 +50,10 @@
               <tr>
                 <td><?php echo $Result['product']; ?></td>
                 <td><?php echo $Result['price']; ?></td>
-                <td><?php echo $Result['amount']; ?></td>
+                <td><?php echo $Result['discount']; ?></td>
                 <td><?php echo $Result['total']; ?></td>
                 <td>
-                  <a class="btn btn-danger" href="delete.php?ID=<?php echo $Result['ID']; ?>">DELETE</a>
+                  <a class="btn btn-danger" href="edit.php?ID=<?php echo $Result['ID']; ?>">แก้ไข</a>
                 </td>
               </tr>
             <?php
