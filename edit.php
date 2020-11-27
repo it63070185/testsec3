@@ -22,7 +22,7 @@
   </head>
 
   <body>
-      <div class="container">
+      <div class="container mt-5">
           <div class="card-header bg-danger text-dark d-flex justify-content-between">
            <h3>EDIT</h3>
            <a href="index.php" class="btn btn-dark">BACK</a>
